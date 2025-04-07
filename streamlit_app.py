@@ -6,8 +6,8 @@ from email.mime.multipart import MIMEMultipart
 # SMTP2GO settings
 SMTP_SERVER = "mail.smtp2go.com"
 SMTP_PORT = 587  # Use 465 for SSL, 587 for STARTTLS
-USERNAME = st.secrets["SMTP-USER"]
-PASSWORD = st.secrets["SMTP-PASS"]
+USERNAME = st.secrets["SMTP_USER"]
+PASSWORD = st.secrets["SMTP_PASS"]
 
 st.title("Send Email via SMTP2GO")
 
